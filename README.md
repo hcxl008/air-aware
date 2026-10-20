@@ -2,6 +2,9 @@
 
 AirAware is an intelligent GIS air quality platform designed for high-resolution interactive mapping. By marrying automated real-time web extraction with dynamic machine learning downscaling, the application predicts hyper-local Air Quality Index (AQI) values across granular urban micro-grids instead of relying strictly on distant regional telemetry.
 
+# Public App Link:
+https://air-aware-hyperlocal-mapping-tinyfish.streamlit.app/
+
 ## 🚀 Core Features
 * **TinyFish API Automation Layer:** Automated, real-time web searching agent to scrap live CPCB baseline AQI benchmarks from the web.
 * **On-the-Fly Scikit-Learn Engine:** Trains an active `RandomForestRegressor` live during the interface script rendering loop based on dynamic user sliders.
